@@ -1,10 +1,11 @@
 # /notification
 
-method: 'POST'
+## method: 'POST'
 
-description: Send push notification to one user using his Expo Token
+## description: 
+Send push notification to one user using his Expo Token
 
-Params:
+## Params:
 
 token (String): User expo token
 
@@ -13,11 +14,12 @@ title (String): The title of the notification
 description (String): Content of the notification
 
 # /notification-many
-method: 'POST'
+## method: 'POST'
 
-description: Send push notification to many user using theire Expo Token
+## description: 
+Send push notification to many user using theire Expo Token
 
-Params:
+## Params:
 
 token (Array of string): Users expo token in a array form
 
